@@ -20,6 +20,7 @@
     <junit.version>4.11</junit.version>
     <mysql.version>5.1.46</mysql.version>
     <liquibase.version>3.6.1</liquibase.version>
+    <!--<oracle.version>11.2.0.1.0</oracle.version>-->
   </properties>
 
   <dependencies>
@@ -37,6 +38,14 @@
       <artifactId>mysql-connector-java</artifactId>
       <version>${mysql.version}</version>
     </dependency>
+    
+        <!--========================================oracle========================================-->
+        <!-- 驱动包下载：https://pan.baidu.com/s/1yv1gJwDKhHJWwrzd0ErYCw -->
+<!--    <dependency>
+      <groupId>com.oracle</groupId>
+      <artifactId>ojdbc6</artifactId>
+      <version>${oracle.version}</version>
+    </dependency>-->
 
     <!--========================================liquibase========================================-->
     <dependency>
